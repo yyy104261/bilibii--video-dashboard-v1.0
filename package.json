@@ -1,0 +1,30 @@
+{
+  "name": "bilibii-video-dashboard-v1.0",
+  "version": "1.0.0",
+  "description": "Bilibili account performance dashboard driven by cumulative CSV data",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "check": "tsc -b --pretty false"
+  },
+  "keywords": ["bilibili", "dashboard", "analytics"],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "lucide-react": "^1.54.0",
+    "motion": "^14.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
